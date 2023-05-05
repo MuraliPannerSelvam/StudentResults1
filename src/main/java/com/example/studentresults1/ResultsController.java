@@ -22,7 +22,7 @@ public class ResultsController {
 	@Autowired
 	RestTemplate restTemp;
 
-	@PostMapping(value = "/addStudentResults")
+	@PostMapping(value = "/addStudentMuraliResults")
 	public String addStudentResults(@RequestBody Results1 res) {
 		String url1 = "http://localhost:8080/getStudentName/";
 		String url2 = "http://localhost:8080/getAttendance/";
